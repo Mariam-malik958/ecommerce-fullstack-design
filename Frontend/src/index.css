@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+/* Button hover effects */
+.editBtn:hover {
+  transform: scale(1.05);
+}
+
+.cancelBtn:hover {
+  background: rgba(220,53,69,0.1);
+}
+
+
+/* Supplier flag image styling */
+.supplier-flag {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 4px;
+}
