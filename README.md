@@ -4,7 +4,7 @@ A modern React + Vite frontend for a full-stack ecommerce project built for the 
 **🚀 Live Demo**: https://brand-ecommerce-site.netlify.app  
 
 ### **✨ Features**
-**Auth**: Login/Signup flows using React Hook Form + Toast notifications
+**Auth**: Login/Signup flows using React +  notifications
 
 **Dashboards**:
 - **Customer**: Orders, saved items, profile management
@@ -35,29 +35,6 @@ A modern React + Vite frontend for a full-stack ecommerce project built for the 
 **Forms**: react-hook-form  
 **Charts**: recharts  
 **Build/Dev**: Vite, ESLint
-
-### *📁 Frontend Folder Structure*
-Frontend/
-├── dist/
-├── Frontend/
-├── images/
-├── node_modules/
-├── public/
-├── src/
-│   ├── assets/
-│   ├── components/
-│   ├── context/
-│   ├── pages/
-│   ├── App.jsx
-│   ├── index.css
-│   ├── index.js
-│   └── main.jsx
-├── index.html
-├── package-lock.json
-├── package.json
-├── postcss.config.js
-├── tailwind.config.js
-└── vite.config.js
 
 ## Install Dependencies
 npm install
