@@ -69,8 +69,39 @@ npm run build
 ## Deployment (Netlify)
 **🚀 Live Frontend is deploy here **: https://brand-ecommerce-site.netlify.app  
 
+ ## E-commerce fullstack design (Backend)
+ This is the backend for an e-commerce application  built with Node.js, Express, and MongoDB.
+It includes authentication with email verification, a secure access & refresh token system, Order request, products catalog, user disctionary& Cart.
+
+
+## Authentication
+User registration with email
+Login with secure password hashing (bcrypt)
+Access & refresh tokens for authentication (jsonwebtoken)
+Role-based authentication for buyers and suppliers
+## Product Management
+Add, updatee, delete products 
+Product categories with automatic slug generation
+Product search & filtering
+## Cart System
+Add, remove, and view items in cart
+Buyer authentication for cart operations
+## User Profile Management
+Buyer profile retrieval
+Supplier profile update with form validation
+Secure logout functionality.
+
+## Develop by:
+Mariam Malik
+
  ## Credits
  Built for Developers Hub full-stack internship.
+
+
+
+ 
+ 
+
 
 
 
