@@ -67,7 +67,7 @@ npm run dev
 npm run build 
 
 ## Deployment (Netlify)
-**🚀 Live Frontend is deploy here **: https://brand-ecommerce-site.netlify.app  
+ Live Frontend is deploy here **: https://brand-ecommerce-site.netlify.app  
 
  ## E-commerce fullstack design (Backend)
  This is the backend for an e-commerce application  built with Node.js, Express, and MongoDB.
@@ -91,7 +91,7 @@ Buyer profile retrieval
 Supplier profile update with form validation
 Secure logout functionality.
 
-## Develop by:
+## Developed by:
 Mariam Malik
 
  ## Credits
