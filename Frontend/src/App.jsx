@@ -9,7 +9,7 @@ import Profile from "./pages/Profile.jsx";
 import Message from "./pages/Message.jsx";
 import Order from "./pages/Order.jsx";
 // Login page ko import kiya
-import Login from "./pages/Login.jsx";
+import Login from "./pages/login.jsx";
 import Signup from "./pages/Signup.jsx";
 import AdminLogin from "./pages/AdminLogin.jsx";
 import AdminDashboard from "./pages/AdminDashboard.jsx";
