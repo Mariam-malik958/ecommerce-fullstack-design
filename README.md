@@ -19,7 +19,7 @@
 - **PDP (Product Detail Page)**: Image gallery with Embla Carousel + related products
 - **Product Management**: Create/Update/Delete products for sellers
 
-**Profile**: Customer & seller profile pages with avatar upload
+**Profile**: Customer & seller profile pages 
 
 **UI/UX**: Responsive Grid/Flex layouts, loading spinners, toast feedback
 
@@ -31,7 +31,7 @@
 
 ### **🧰 Tech Stack**
 **Framework**: React 19 + Vite 7  
-**Language**: JavaScript (ESM)  
+**Language**: JavaScript  
 **Routing**: react-router-dom 7  
 **State**: @reduxjs/toolkit, react-redux  
 **HTTP**: axios  
@@ -40,21 +40,34 @@
 **Charts**: recharts  
 **Build/Dev**: Vite, ESLint
 
-frontend/
-├─ public/
-├─ src/
-│  ├─ assets/
-│  ├─ components/
-│  ├─ hooks/
-│  ├─ pages/
-│  ├─ routes/
-│  ├─ services/
-│  ├─ store/
-│  ├─ styles/
-│  ├─ utils/
-│  ├─ App.jsx
-│  └─ main.jsx
-├─ .env
-├─ .env.production
-├─ index.html
-└─ package.json
+### *📁 Frontend Folder Structure*
+Frontend/
+├── dist/
+├── Frontend/
+├── images/
+├── node_modules/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── context/
+│   ├── pages/
+│   ├── App.jsx
+│   ├── index.css
+│   ├── index.js
+│   └── main.jsx
+├── index.html
+├── package-lock.json
+├── package.json
+├── postcss.config.js
+├── tailwind.config.js
+└── vite.config.js
+
+## Install Dependencies
+npm install
+## Start Dev server 
+npm run dev 
+## Build command 
+npm run build 
+
+
