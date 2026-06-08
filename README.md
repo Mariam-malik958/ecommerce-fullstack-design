@@ -1,11 +1,7 @@
-# 🛒 E-Commerce Full Stack Design
-
-> **Internship Project @ DeveloperHub Corporation**  
-> **Task**: Full-Stack Development Task for Interns  
-> **Based on**: Ecommerce Web Design Figma template
+# 🛒 E-Commerce Full Stack Design (Frontend)
+A modern React + Vite frontend for a full-stack ecommerce project built for the Developers Hub Full-Stack Internship. The app focuses on clean UI, fast performance, and a scalable structure. It includes authentication, customer & Admin dashboards, product CRUD, catalog (PLP), product detail (PDP), and profile management. Layouts use responsive Grid and Flex with Tailwind CSS.
 
 **🚀 Live Demo**: https://brand-ecommerce-site.netlify.app  
-**📂 GitHub Repo**: ecommerce-fullstack-design  
 
 ### **✨ Features**
 **Auth**: Login/Signup flows using React Hook Form + Toast notifications
@@ -69,5 +65,16 @@ npm install
 npm run dev 
 ## Build command 
 npm run build 
+
+## Deployment (Netlify)
+**🚀 Live Frontend is deploy here **: https://brand-ecommerce-site.netlify.app  
+
+ ## Credits
+ Built for Developers Hub full-stack internship.
+
+
+
+
+
 
 
