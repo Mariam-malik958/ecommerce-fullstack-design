@@ -40,29 +40,21 @@
 **Charts**: recharts  
 **Build/Dev**: Vite, ESLint
 
-Frontend/
-├── dist/             # Production build files - auto generated after npm run build
-├── node_modules/     # Project dependencies - auto generated
-├── public/           # Public assets like favicon, robots.txt
-│
-└── src/              # Main source code
-    ├── assets/       # Images, icons, fonts used in components
-    ├── components/   # Reusable UI: Navbar, Card, Button, Carousel
-    ├── hooks/        # Custom hooks: useAuth, useCart
-    ├── pages/        # All route pages
-    │   ├── AdminAddProduct.jsx    # Seller panel - Add new product
-    │   ├── AdminDashboard.jsx     # Seller panel - Dashboard + analytics
-    │   ├── AdminLogin.jsx         # Seller panel - Login page
-    │   ├── Cart.jsx               # Shopping cart page
-    │   ├── Home.jsx               # Landing / Homepage
-    │   ├── Login.jsx              # User login/signup page
-    │   ├── Message.jsx            # Notifications / Messages page
-    │   ├── Order.jsx              # Order history & details
-    │   ├── ProductDetails.jsx     # PDP with gallery & related products
-    │   ├── ProductListView.jsx    # PLP with filters/sorting/pagination
-    │   └── Products.jsx           # All products grid page
-    ├── routes/       # React Router v7 config + protected routes
-    ├── services/     # Axios API calls for backend
-    ├── store/        # Redux Toolkit slices: auth, products, cart
-    ├── styles/       # Global styles, Tailwind config
-    └── utils/        # Helper functions
+frontend/
+├─ public/
+├─ src/
+│  ├─ assets/
+│  ├─ components/
+│  ├─ hooks/
+│  ├─ pages/
+│  ├─ routes/
+│  ├─ services/
+│  ├─ store/
+│  ├─ styles/
+│  ├─ utils/
+│  ├─ App.jsx
+│  └─ main.jsx
+├─ .env
+├─ .env.production
+├─ index.html
+└─ package.json
